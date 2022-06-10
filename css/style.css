@@ -1,0 +1,443 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1440px;
+}
+body{
+    background: url("../images/body_bg.png")no-repeat;
+}
+#main{
+    padding-top: 40px;
+}
+#main header{
+    display: flex;
+    justify-content: space-between;
+	width: 110%;
+}
+#main header div.left{
+}
+#main header div.left h1{
+}
+#main header div.left h1 div{
+}
+#main header div.left h1 div img{
+
+}
+#main header div.right{
+
+}
+#main header div.right ul{
+    display: flex;
+
+}
+#main header div.right ul li{
+    margin-right: 30px;
+    z-index: 1;
+}
+#main header div.right ul li:last-child{
+    margin: 0;
+}
+#main header div.right ul li a{
+    color: #fff;
+    font-weight: 700;
+}
+#spotlight{
+    padding: 50px 0;
+}
+#spotlight div.one{
+    width: 22%;
+    position: relative;
+}
+#spotlight div.one img{
+    display: block;
+    width: 100%;
+    position: absolute;
+    right: -430%;
+    top: -190px;
+}
+#spotlight div.two{
+    width: 60%;
+    margin: 0 auto;
+}
+#spotlight div.two img{
+    display: block;
+    width: 100%;
+}
+#spotlight h2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 30px;
+}
+#spotlight a.button{
+    display: inline-block;
+   position: relative;
+   left: 46%;
+   background-color: #000;
+   padding: 12px 40px;
+   color: #fff;
+   margin-bottom: 60px;
+
+}
+ hr.line{
+    border: 1px solid;
+    width: 125%;
+	
+}
+#wine{
+	padding: 100px;
+}
+#wine h2{
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 40px;
+	font-weight: 700;
+	color: #000;
+
+}
+#wine h2 span{
+	color: red;
+	font-weight: 700;
+
+}
+#wine p{
+text-align: center;
+margin-bottom: 50px;
+color:#929191;
+}
+#wine div.top{
+	display: flex;
+	justify-content: space-between;
+
+}
+#wine .top .left{
+
+}
+#wine .top .left div{
+	display: block;
+	width: 100%;
+}
+#wine .top .left div img{
+	display: block;
+	margin-bottom: 80px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#wine .top .right{
+	padding: 30px 30px;
+}
+#wine .top .right h3{
+	color: #000;
+	margin-bottom: 30px;
+	font-size:28px;
+	font-weight: 700;
+}
+#wine .top .right p{
+	width: 72%;
+	margin-bottom: 80px;
+}
+#wine .top .right a.button{
+	color: #fff;
+	background: #000;
+	padding: 10px 20px;
+	border-radius: 55px;
+	
+}
+#wine div.middle{
+	display: flex;
+	justify-content: space-between;
+
+}
+#wine .middle .lef{
+
+}
+#wine .middle .left div{
+	display: block;
+	width: 100%;
+}
+#wine .middle .left div img{
+	display: block;
+	margin-bottom: 80px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#wine .middle .right{
+	padding: 30px 30px;
+}
+#wine .middle .right h3{
+	color: #000;
+	margin-bottom: 30px;
+	font-size:28px;
+	font-weight: 700;
+}
+#wine .middle .right p{
+	width: 72%;
+	margin-bottom: 80px;
+}
+#wine .middle .right a.button{
+	color: #000;
+	background: red;
+	padding: 10px 20px;
+	border-radius: 55px;
+}
+#wine div.bottom{
+	display: flex;
+	justify-content: space-between;
+
+}
+#wine .bottom .lef{
+
+}
+#wine .bottom .left div{
+	display: block;
+	width: 100%;
+}
+#wine .bottom .left div img{
+	display: block;
+	margin-bottom: 80px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#wine .bottom .right{
+	padding: 30px 30px;
+}
+#wine .bottom .right h3{
+	color: #000;
+	margin-bottom: 30px;
+	font-size:28px;
+	font-weight: 700;
+}
+#wine .bottom .right p{
+	width: 72%;
+	margin-bottom: 80px;
+}
+#wine .bottom .right a.button{
+	color: #000;
+	background: green;
+	padding: 10px 20px;
+	border-radius: 55px;
+}
+ hr.line{
+    border: 1px solid #000;
+    width: 125%;
+	
+}
+#about{
+
+}
+#about h2{
+	text-align: center;
+	font-size: 42px;
+	font-weight: 700;
+	margin-bottom: 80px;
+	margin-top: 50px;
+
+}
+#about h2 span{
+	font-size: 42px;
+	font-weight: 700;
+	color: red;
+}
+#about p{
+	text-align: center;
+	line-height: 1.8em;
+	color: black;
+	width: 67%;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+#about a.button{
+	display: inline-block;
+	position: relative;
+	left: 46%;
+	background: #000;
+	color: #fff;
+	padding: 10px 30px;
+	margin-bottom: 100px;
+}
+hr.line{
+	border: 1px solid #000;
+}
+#testnomial{
+	margin-bottom: 80px;
+
+}
+#testnomial h2{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	color: #474646;
+	margin-bottom: 20px;
+	margin-top: 50px;
+
+}
+#testnomial h2 span{
+	color: red;
+	font-size: 36px;
+	font-weight: 700;
+}
+#testnomial p{
+	text-align: center;
+	color: #474646;
+	margin-bottom: 40px;
+
+}
+#testnomial .one{
+	display: flex;
+
+}
+#testnomial .one .left{
+
+}
+#testnomial .one .left div{
+
+}
+#testnomial .one .left div img{
+
+}
+#testnomial .one .right{
+	padding-left: 50px;
+
+}
+#testnomial .one .right h3{
+	font-size: 36px;
+	color: red;
+	margin-top: 60px;
+
+}
+#testnomial .one .right p{
+	width: 81%;
+	margin-top: 30px;
+	color: #000;
+}
+#form{
+
+}
+#form .page{
+	display: flex;
+
+}
+#form .page .left{
+
+}
+#form .page .left h2{
+	font-size: 36px;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 60px;
+
+}
+#form .page .left p{
+	width: 63%;
+	margin-bottom: 40px;
+	color: #000;
+
+}
+#form .page .left h3{
+	color: red;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 1.5em;
+	margin-bottom: 40px;
+
+}
+#form .page .right{
+
+}
+#form .page .right input{
+	border-bottom: 1px solid #000;
+	height: 50px;
+
+}
+#form .page .right .button{
+	background: #000;
+	padding: 10px 20px;
+	color: #fff;
+	position: relative;
+	top: 115px;
+	right: 115px;
+}
+#form div{
+
+}
+#form div img{
+	position: relative;
+	top: 560px;
+	right: 224px;
+}
+#footer{
+
+}
+#footer h4{
+	text-align: center;
+	margin-top: 40px;
+	color: #000;
+}
+@media all and (max-width:1280px) {
+	#main header{
+		justify-content: center;
+	}
+	#main header div.right ul li a{
+		color: #000;
+	}
+}
+
